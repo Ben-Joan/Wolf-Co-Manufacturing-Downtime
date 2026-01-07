@@ -1,8 +1,8 @@
 # Wolf Co. Manufacturing Downtime Analysis
 
 ## Project Objective 
-Wolf Cola is a soft drink company that handles all its manufacturing operations in Philadelphia. The company kicked off a productivity improvement project for the bottling production line. 
-The task is to analyze the productivity and downtime data and find ways for the operating staff to improve the line's efficiency.
+Wolf Cola is a soft drink company that handles all its manufacturing operations in Philadelphia. The company kicked off a productivity improvement project for the bottling production line focused on understanding production efficiency and downtime. 
+The objective of this project is to analyze productivity and downtime data from the production line and identify actionable opportunities for improving operational efficiency.
 
 **GOAL : Identify productivity improvement opportunities in the production Line**
 
@@ -16,10 +16,17 @@ KEY QUESTIONS:
 
 - Determine downtime by operator and factor: Do any operators struggle with particular types of operator error?
 
-## Data Structure 
-The data was collected, cleaned, formatted and transformed using Power Query
+## Tools & Skills
+- Power BI – Data modeling, DAX, interactive dashboards
 
-Power BI is used for data visualization and dashboard
+- Power Query – Data cleaning and transformation
+
+- Operational Analytics – Efficiency analysis, Pareto (80/20) analysis
+
+- Manufacturing KPI Analysis – Downtime, line efficiency, operator performance
+
+
+## Data Structure 
 
 ![ERD](https://github.com/Ben-Joan/Wolf-Co-Manufacturing-Downtime/blob/main/Images/ERD.PNG)
 
@@ -30,28 +37,38 @@ downtime of **23hrs 8mins (1388 mins)**. The production line have a **64% overal
 
 ![Operators eff](https://github.com/Ben-Joan/Wolf-Co-Manufacturing-Downtime/blob/main/Images/Operator%20eff.PNG)
 
-From the above chart, Charlie is the most efficient worker at 66.8% and lowest downtime at 33.2%. while Mac had the poorest efficiency at 60.9% though still above 50% average.
+From the above chart, **Charlie** is the most efficient operator with **66.8% efficiency** and lowest downtime rate **(33.2%)**. While **Mac** recorded the lowest efficiency at **60.9%** though still above 50% average benchmark. Overall, operator efficiency levels are relatively close, indicating no extreme underperformance.
+
 
 ![Factors](https://github.com/Ben-Joan/Wolf-Co-Manufacturing-Downtime/blob/main/Images/Downtime_factors.PNG)
 
-From pareto analysis of 80/20 principle: Machine adjustment, Machine failure, Inventory shortage, Batch change and Batch coding error contributed to 80% impact on downtime causes. 
+Using Pareto analysis (80/20 principle), the following factors account for approximately 80% of total downtime:
+
+**Machine adjustment (24%), Machine failure (18%), Inventory shortage (16%), Batch change (12%) and Batch coding error (10%).**
+
+These represent the most critical areas requiring operational improvement.
+
 
 ![operator_factor](https://github.com/Ben-Joan/Wolf-Co-Manufacturing-Downtime/blob/main/Images/Operators.PNG)
 This chart helps show operators performance across the different downtime factors to determine where operators encounter the most challenge.
-From the operator performance chart, Charlie and Dennis expereienced the most downtime under machine adjustments and machine failure. Dee's most downtime is on Inventory shortage and Machine adjustment while is also in Inventory Shortage and Batch Change. This also shows that for the top factor of Machine adjustment, 3 out of 4 operators has difficulty with this. 
+From the operator performance chart, **Charlie and Dennis** experienced the highest downtime related to machine adjustment and machine failure. **Dee** recorded most downtime due to inventory shortage and machine adjustment. **Mac** showed higher downtime in inventory shortage and batch change.
+**Notably, 3 out of 4 operators struggled with machine adjustment, making it the most widespread operational challenge.**
 
 
 ![product_factor](https://github.com/Ben-Joan/Wolf-Co-Manufacturing-Downtime/blob/main/Images/Products.PNG)
-C0-600, CO-2L and RB-600 product line combined encountered 74% out of the 23hrs of downtime experienced acros the 64hrs production time. CO-600 major downtime factors Inventory Shortage and Machine Failure, while CO-2L and RB-600 major problem was from machine adjustment.
+CO-600, CO-2L, and RB-600 accounted for 74% of total downtime across the production period. **CO-600 downtime** was mainly caused by inventory shortages and machine failure while **CO-2L and RB-600 downtime** was primarily driven by machine adjustment issues.
 
 
 [DASHBOARD](https://app.powerbi.com/view?r=eyJrIjoiOTBlNTc5NjMtNmU2ZS00MmY2LTg2ZjQtN2IwN2RkMjk1MzE3IiwidCI6IjczMDc4ZWNkLWYzM2UtNDQxYy05ODYyLWVhZDdjNjFhNGU4MiJ9)
 
 ## Recommendations
-- With a Line efficiency of 64% which is above average, Wolf Co. production line so far has a good productivity rate but there is room for improvemen. Therefore, operations should be improved to meet at least 75% effieciency which is a more excellent rate. Overall, no operator is performing so poorly since efficiency is all above 50% average, but there is need for every operator to improve especially Mac who had the highest downtime rate at 39%.
-- Looking at the top causes of downtime and operators performance, there is need for revaluation and reassignment of tasks to the operators according to their areas of lesser downtime and higher efficiency in order to minimize downtime. Charlie, Dennis and Dee had high downtime in machine adjustment compared to Mac, signifying high weakness or poor knowledge on this area, therefore this task can be reassigned primarily to Mac to manage. Mac also experienced high downtime with Batch Change and Inventory mangement compared to other operators, making it also area with limited skillset and therefore should be reassigned to operators with stronger efficiency.
-- Product performance also shows that CO-600 is always short on inventory and expriences lots of machine failure during production. While CO-2L and RB-600 production lines always requires adjustment. Therefore, proper inventory management, preventive and predictive maintainance should be parcticed and  faster operator for machine adjustment to prevent this errorrs.
-
-
-
+- Although the production line efficiency of 64% is above average, there is significant room for improvement. A **target efficiency of 75%** is recommended to achieve a more optimal performance level.
+- No operator is performing poorly overall, as all efficiency levels exceed 50%. However, focused improvement is needed **particularly for Mac**, who recorded the highest downtime rate (39%).
+- **Task reassignment should be considered based on operator strengths:**
+	- Machine adjustment tasks should be primarily handled by operators with relatively better performance in this area, as multiple operators struggle with this factor. e.g Mac performed best here, therefore should be assigned this task.
+	- Inventory management and batch change tasks should be reassigned away from operators with higher downtime in these categories. e.g Mac has weeker strngth here compared to Charlie and Dee with very minimal downtime.
+- For product-related downtime:
+	- CO-600 requires **improved inventory planning and preventive maintenance** to reduce shortages and failures.
+	- CO-2L and RB-600 production lines would benefit from **faster and more standardized** machine adjustment procedures.
+- In conclusion: Implementing preventive and predictive maintenance, improved inventory control, and targeted operator training will significantly reduce downtime and improve overall line efficiency.
 
