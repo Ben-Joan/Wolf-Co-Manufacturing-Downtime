@@ -17,9 +17,16 @@ KEY QUESTIONS:
 - Determine downtime by operator and factor: Do any operators struggle with particular types of operator error?
 
 ## Data Structure 
+The data was collected, cleaned, formatted and transformed using Power Query
+
+Power BI is used for data visualization and dashboard
+
+![ERD](Images/ERD.PNG)
+
 
 ## Insights 
 
 ## Recommendations
+
 
 
