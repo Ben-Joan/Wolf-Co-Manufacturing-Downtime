@@ -15,3 +15,11 @@ KEY QUESTIONS:
 - What are the leading factors for downtime?
 
 - Determine downtime by operator and factor: Do any operators struggle with particular types of operator error?
+
+## Data Structure 
+
+## Insights 
+
+## Recommendations
+
+
