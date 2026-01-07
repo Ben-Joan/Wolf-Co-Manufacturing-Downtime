@@ -66,9 +66,10 @@ CO-600, CO-2L, and RB-600 accounted for 74% of total downtime across the product
 - No operator is performing poorly overall, as all efficiency levels exceed 50%. However, focused improvement is needed **particularly for Mac**, who recorded the highest downtime rate (39%).
 - **Task reassignment should be considered based on operator strengths:**
 	- Machine adjustment tasks should be primarily handled by operators with relatively better performance in this area, as multiple operators struggle with this factor. e.g Mac performed best here, therefore should be assigned this task.
-	- Inventory management and batch change tasks should be reassigned away from operators with higher downtime in these categories. e.g Mac has weeker strngth here compared to Charlie and Dee with very minimal downtime.
+	- Inventory management and batch change tasks should be reassigned away from operators with higher downtime in these categories. e.g Mac has weaker strength here compared to Charlie and Dee with very minimal downtime.
 - For product-related downtime:
 	- CO-600 requires **improved inventory planning and preventive maintenance** to reduce shortages and failures.
 	- CO-2L and RB-600 production lines would benefit from **faster and more standardized** machine adjustment procedures.
 - In conclusion: Implementing preventive and predictive maintenance, improved inventory control, and targeted operator training will significantly reduce downtime and improve overall line efficiency.
+
 
