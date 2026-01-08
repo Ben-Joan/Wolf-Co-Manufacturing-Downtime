@@ -71,5 +71,3 @@ CO-600, CO-2L, and RB-600 accounted for 74% of total downtime across the product
 	- CO-600 requires **improved inventory planning and preventive maintenance** to reduce shortages and failures.
 	- CO-2L and RB-600 production lines would benefit from **faster and more standardized** machine adjustment procedures.
 - In conclusion: Implementing preventive and predictive maintenance, improved inventory control, and targeted operator training will significantly reduce downtime and improve overall line efficiency.
-
-
