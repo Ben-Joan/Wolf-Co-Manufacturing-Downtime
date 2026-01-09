@@ -58,7 +58,8 @@ From the operator performance chart, **Charlie and Dennis** experienced the high
 ![product_factor](https://github.com/Ben-Joan/Wolf-Co-Manufacturing-Downtime/blob/main/Images/Products.PNG)
 CO-600, CO-2L, and RB-600 accounted for 74% of total downtime across the production period. **CO-600 downtime** was mainly caused by inventory shortages and machine failure while **CO-2L and RB-600 downtime** was primarily driven by machine adjustment issues.
 
-
+## Dashboard View
+![Dashboard](https://github.com/Ben-Joan/Wolf-Co-Manufacturing-Downtime/blob/main/Images/Report.PNG)
 [DASHBOARD](https://app.powerbi.com/view?r=eyJrIjoiOTBlNTc5NjMtNmU2ZS00MmY2LTg2ZjQtN2IwN2RkMjk1MzE3IiwidCI6IjczMDc4ZWNkLWYzM2UtNDQxYy05ODYyLWVhZDdjNjFhNGU4MiJ9)
 
 ## Recommendations
@@ -71,3 +72,4 @@ CO-600, CO-2L, and RB-600 accounted for 74% of total downtime across the product
 	- CO-600 requires **improved inventory planning and preventive maintenance** to reduce shortages and failures.
 	- CO-2L and RB-600 production lines would benefit from **faster and more standardized** machine adjustment procedures.
 - In conclusion: Implementing preventive and predictive maintenance, improved inventory control, and targeted operator training will significantly reduce downtime and improve overall line efficiency.
+
